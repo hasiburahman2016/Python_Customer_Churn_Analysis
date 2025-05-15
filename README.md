@@ -33,17 +33,10 @@ Analysis of Customer Churn using Python
 
 ---
 
-## 📊 Recommended Visuals for Power BI
+## 📌 Conclusion
+To reduce churn:
 
-- **Churn Rate by Contract Type**: Clustered column chart
-- **Churn by Payment Method**: 100% stacked bar
-- **Churn vs Tenure Group**:
-  ```dax
-  Tenure Group = 
-  SWITCH(
-    TRUE(),
-    Customers[Tenure] < 12, "Under 1 Year",
-    Customers[Tenure] <= 36, "1–3 Years",
-    "Over 3 Years"
-  )
+- **Promote longer-term contracts**
+- **Encourage stable payment methods**
+- **Target retention for new and senior customers**
 
