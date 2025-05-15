@@ -1,7 +1,7 @@
-# Python_Customer_Churn_Analysis
+# 📊 Customer Churn Analysis Report
 Analysis of Customer Churn using Python
 
-# 📊 Customer Churn Analysis Report
+
 
 ## 🔍 Key Insights
 
