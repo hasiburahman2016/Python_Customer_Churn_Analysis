@@ -1,2 +1,49 @@
 # Python_Customer_Churn_Analysis
 Analysis of Customer Churn using Python
+
+# 📊 Customer Churn Analysis Report
+
+## 🔍 Key Insights
+
+### 1. Contract Type and Churn
+- **Month-to-month customers** have the highest churn rate: **42%**
+- **One-year** and **two-year contracts** have churn rates of **11%** and **3%**
+- **Implication**: Long-term contracts are strong churn deterrents.
+
+### 2. Payment Methods and Churn
+- **Electronic check users** churn at **45%**
+- Other methods (credit card, bank transfer, mailed check) average **15–18%**
+- **Implication**: Promote stable payment options to reduce churn.
+
+### 3. Churn by Tenure
+- **<1 year tenure**: churn rate **50%**
+- **1–3 years**: **35%**
+- **>3 years**: **15%**
+- **Implication**: Customer retention is most critical in the first year.
+
+### 4. Internet Service Type
+- **Fiber optic users**: churn rate **30%**
+- **DSL users**: churn rate **20%**
+- **Implication**: Investigate service quality and satisfaction for fiber users.
+
+### 5. Senior Citizens
+- **Senior citizens (65+)** churn at **41%**
+- **Non-seniors** churn at **26%**
+- **Implication**: Consider targeted retention efforts for seniors.
+
+---
+
+## 📊 Recommended Visuals for Power BI
+
+- **Churn Rate by Contract Type**: Clustered column chart
+- **Churn by Payment Method**: 100% stacked bar
+- **Churn vs Tenure Group**:
+  ```dax
+  Tenure Group = 
+  SWITCH(
+    TRUE(),
+    Customers[Tenure] < 12, "Under 1 Year",
+    Customers[Tenure] <= 36, "1–3 Years",
+    "Over 3 Years"
+  )
+
