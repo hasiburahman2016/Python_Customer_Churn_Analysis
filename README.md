@@ -1,6 +1,12 @@
 # 📊 Customer Churn Analysis Report
 Analysis of Customer Churn using Python
 
+## 📎 Attached Files
+
+- 📘 [Telco Customer Churn Analysis in Python (Notebook)](https://github.com/hasiburahman2016/Python_Customer_Churn_Analysis/blob/main/Telco_customer_Churn_T.ipynb)
+- 📄 [Telco Customer Churn Analysis (PDF)](https://github.com/hasiburahman2016/Python_Customer_Churn_Analysis/blob/main/Telco_customer_Churn_T.pdf)
+- 📝 [Executive Summary](https://github.com/hasiburahman2016/Python_Customer_Churn_Analysis/blob/main/Executive%20Summary.pdf)
+
 
 
 ## 🔍 Key Insights
